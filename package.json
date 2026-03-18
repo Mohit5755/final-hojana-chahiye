@@ -1,0 +1,19 @@
+{
+  "name": "momentum-blasters",
+  "version": "1.0.0",
+  "description": "Momentum Blasters Live Market Terminal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "cheerio": "^1.0.0-rc.12",
+    "express-session": "^1.17.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

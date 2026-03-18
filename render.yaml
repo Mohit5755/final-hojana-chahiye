@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: momentum-blasters
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: DASHBOARD_USER
+        value: mohit
+      - key: DASHBOARD_PASS
+        value: momentum2026
+      - key: SESSION_SECRET
+        value: mb-super-secret-2026
